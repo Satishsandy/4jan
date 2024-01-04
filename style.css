@@ -1,0 +1,34 @@
+    @media screen and (min-width:900px){
+
+    body{
+        background-image: url(ma.jpeg);
+        background-repeat: repeat;
+        background-size: cover;
+        
+    }
+    h1{
+        background-color: aqua;
+        height: 50px;
+        width: 100%
+    }
+    img{
+        margin: 10px;
+         border-radius: 10px;
+    }
+}
+@media screen and (max-width:690px){
+    body{
+        background-image: url(ih.jpeg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+      h1{
+        background-color: brown;
+        height: 50px;
+        width: 100%
+    }
+    img{
+        margin: 10px;
+        border-radius: 10px;
+    }
+}
